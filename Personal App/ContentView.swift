@@ -31,7 +31,7 @@ struct ContentView: View {
                     .padding([.leading, .bottom, .trailing])
                 
                 
-                Button("type a number 1-5 to reveal a fun fact!") {
+                Button("type a number 1-5 to reveal a fun fact!") { 
                     var a = Int(String(number))
                     a = a! - 1
                     fact = factArray[a!]
